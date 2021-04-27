@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.navigatore{
+    position: fixed;
+    z-index: 1001;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    top: 30px;
+    right: 30px  
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.ng1{
+    margin-right: 180px;
+}
+
+.ng2{
+    margin-right: 90px;
+}
+
+.container-box{
+    height: 100vh;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.box{
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.text{
+    font-size: 50px;
+    color: yellow;
+    margin: 30px;
+}
+
+.text-2{
+    font-size: 50px;
+    color: green;
+    margin: 30px;
+}
